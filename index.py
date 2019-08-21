@@ -5,6 +5,11 @@
 """
 
 # psycopg2 is a Postgres database adapter for Python
+"""
+A database adapter is an implementation of a database connector. ... 
+ODBC and JDBC are two main database adapters to execute SQL statements
+ and retrieve results.
+"""
 import psycopg2
 conn = psycopg2.connect(user="postgres", password="postgres", dbname="shopping")
 
